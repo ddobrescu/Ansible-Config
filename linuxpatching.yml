@@ -2,8 +2,8 @@
 - name: Patch RHEL Servers
   hosts: all
 
-  #roles:
-  # - shadowman_patching
+  roles:
+   - shadowman_patching
 
   tasks:
   
